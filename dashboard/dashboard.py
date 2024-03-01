@@ -54,7 +54,7 @@ def bike_weather_df(df):
     return weather_df
 
 # Mengimport data dari csv
-day_df = pd.read_csv("day.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/fernandomichael17/dicoding-data_analyst-project/main/dashboard/day.csv")
 hour_df = pd.read_csv("hour.csv")
 
 # Mengubah tipe data datetime, dan juga merubah beberapa nama kolom pada day_df
